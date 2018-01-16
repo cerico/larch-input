@@ -1,0 +1,51 @@
+.input{
+  outline: none;
+  border: 2px solid;
+  border-radius: 0px;
+  padding: .375rem 10.84px;
+  height: 45px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: inherit;
+  color: inherit;
+}
+
+.form{
+  position: relative;
+max-width: 25rem;
+font-family: 'Raleway';
+}
+
+.hidden{
+  display: none;
+}
+
+.submit{
+  position: absolute;
+top: 0;
+right: 0;
+width: 108.4px;
+background-color: #FF757D;
+color: #322F7C;
+border: 2px solid #FF757D;
+}
+
+.email{
+  box-sizing: border-box;
+  color: #FF757D;
+  background-color: #322F7C;
+  width: 400px;
+
+}
+
+@media screen and (max-width: 640px){
+
+  .email {
+    width:300px
+  }
+}

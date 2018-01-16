@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box
+}
+*:after,
+*.before {
+  box-sizing: border-box
+}
+
+body, html, article {
+  box-sizing: border-box;
+  /* background-color:rgb(244, 239, 222) */
+  background-color:  #322F7C;
+  
+}
+
+a, a:visited {
+  text-decoration: none;
+  color:#549fb8
+}
+
+img {
+  height: 240px;
+}
+
+.centering{
+  position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 50%;
+
+}
+
