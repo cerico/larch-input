@@ -2,7 +2,7 @@
   outline: none;
   border: 2px solid;
   border-radius: 0px;
-  padding: .375rem 10.84px;
+  padding: .4rem 11px;
   height: 45px;
   font-family: inherit;
   font-weight: inherit;
@@ -17,8 +17,8 @@
 
 .form{
   position: relative;
-max-width: 25rem;
-font-family: 'Raleway';
+  max-width: 25rem;
+  font-family: 'Raleway';
 }
 
 .hidden{
@@ -27,12 +27,12 @@ font-family: 'Raleway';
 
 .submit{
   position: absolute;
-top: 0;
-right: 0;
-width: 108.4px;
-background-color: #FF757D;
-color: #322F7C;
-border: 2px solid #FF757D;
+  top: 0;
+  right: 0;
+  width: 100px;
+  background-color: #FF757D;
+  color: #322F7C;
+  border: 2px solid #FF757D;
 }
 
 .email{
@@ -40,7 +40,6 @@ border: 2px solid #FF757D;
   color: #FF757D;
   background-color: #322F7C;
   width: 400px;
-
 }
 
 @media screen and (max-width: 640px){
