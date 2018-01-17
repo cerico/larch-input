@@ -1,27 +1,31 @@
 import React from 'react';
 const classNames = require('classnames');
-import styles from './block.css';
-import Header from './header';
-import BlockItem from './BlockItem';
+import styles from './input.css';
 import './fonts.css'
 
-const Block = ({data}) => {
+const Input = ({scheme}) => {
+
+    const email = {
+      color: scheme.bg,
+      backgroundColor: scheme.fg
+    }
+
+    const submit = {
+      color: scheme.fg,
+      backgroundColor: scheme.bg,
+      borderColor: scheme.bg
+    }
 
     return(
-      2 == 2  ? 
-        <section style={{'backgroundColor':data.colours.bg,'color':data.colours.fg}} className={styles.main}>
-          <Header {...data} />
-          <div className={styles.itemWrapper}>      
-            {data.items.map((product, index) =>
-              <BlockItem {...data} product={product} key={index}/>)        
-            }
-          </div>  
-      </section> 
-        : null
+      <form action="" method="post" className={styles.form}>
+        <label className={styles.hidden}>Email</label>
+        <input style={email} placeholder="Email address" className={classNames(styles.input,styles.email)} required="" type="email"/>
+        <input style={submit} value="Submit" className={classNames(styles.input,styles.submit)} type="submit"/>    
+    </form>
     )
   }
 
-  export default Block
+  export default Input
 
 
 
