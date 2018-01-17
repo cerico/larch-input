@@ -31,7 +31,7 @@ Include in your react component and pass it the colours you want for it
 ```
 render (){
     const scheme = {
-      bg: 'cornflowerBlue',
+      bg: 'pink',
       fg: '#322F7C'
     }
       
