@@ -12,8 +12,7 @@ const Input = ({scheme}) => {
 
     const submit = {
       color: scheme.fg,
-      backgroundColor: scheme.bg,
-      borderColor: scheme.bg
+      backgroundColor: scheme.bg
     }
 
     return(

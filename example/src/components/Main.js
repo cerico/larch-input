@@ -8,8 +8,8 @@ class Main extends React.Component  {
 
   render (){
     const scheme = {
-      bg: 'cornflowerBlue',
-      fg: '#322F7C'
+      bg: '#1D271D',
+      fg: '#76C577'
     }
       
     return(
