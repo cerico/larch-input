@@ -7,7 +7,8 @@ const Input = ({scheme}) => {
 
     const email = {
       color: scheme.bg,
-      backgroundColor: scheme.fg
+      backgroundColor: scheme.fg,
+      borderColor:scheme.bg
     }
 
     const submit = {

@@ -8,9 +8,11 @@ class Main extends React.Component  {
 
   render (){
     const scheme = {
-      bg: '#1D271D',
-      fg: '#76C577'
+      bg: '#484AB3',
+      fg: '#F9F7EE'
     }
+    
+
       
     return(
       <div className={styles.centering}>

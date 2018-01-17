@@ -5,21 +5,23 @@ import './fonts.css'
 
 const Input = ({scheme}) => {
 
-    const email = {
-      color: scheme.bg,
-      backgroundColor: scheme.fg
-    }
+  const email = {
+    color: scheme.bg,
+    backgroundColor: scheme.fg,
+    borderColor:scheme.bg
+  }
 
-    const submit = {
-      color: scheme.fg,
-      backgroundColor: scheme.bg
-    }
+  const submit = {
+    color: scheme.fg,
+    backgroundColor: scheme.bg,
+    borderColor: scheme.bg
+  }
 
-    return(
-      <form action="" method="post" className={styles.form}>
-        <label className={styles.hidden}>Email</label>
-        <input style={email} placeholder="Email address" className={classNames(styles.input,styles.email)} required="" type="email"/>
-        <input style={submit} value="Submit" className={classNames(styles.input,styles.submit)} type="submit"/>    
+  return(
+    <form action="" method="post" className={styles.form}>
+      <label className={styles.hidden}>Email</label>
+      <input style={email} placeholder="Email address" className={classNames(styles.input,styles.email)} required="" type="email"/>
+      <input style={submit} value="Submit" className={classNames(styles.input,styles.submit)} type="submit"/>    
     </form>
     )
   }
