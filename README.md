@@ -1,7 +1,7 @@
 # Larch Input
 
 
-![screenshot]()
+![screenshot](https://s3.eu-west-2.amazonaws.com/io1937/screenshots/larch.jpeg)
 
 
 ## TLDR / What is it?
